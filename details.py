@@ -1,0 +1,5 @@
+name=input("Enter name:")
+address=input("Enter address of person:")
+email=input("Enter email:")
+number=int(input("Enter phone number:"))
+print("NAME   :          {0}\nADDRESS:          {1}\nEMAIL  :          {2}\nNUMBER :          {3}".format(name,address,email,number))

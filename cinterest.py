@@ -1,0 +1,5 @@
+p=float(input("enter amount:"))
+r=float(input("Enter rate of interest:"))
+t=float(input("Enter time period:"))
+ci=p*pow((1+r/100),t)
+print("COMPOUND INTEREST:{}".format(ci))
